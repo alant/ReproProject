@@ -1,5 +1,6 @@
 package repro.ads.com.carouseladsscrollbarrepro;
 
+import android.app.Activity;
 import android.view.*;
 
 import com.google.android.gms.ads.*;
@@ -16,11 +17,11 @@ import android.view.*;
 /**
  * Created by aarati on 9/7/16.
  */
-public class TestAdActivity extends AppCompatActivity {
+public class TestAdActivity extends Activity {
 	public static final String SINGLE_ROW_AD_HEIGHT = "150";
 	public static final String ADS_THEME = "tuna";
 	public static final String COLOR_PALETTE = "6f6f6f";
-	public static String CAROUSEL_VIEW_CLIENT_ID = "XXX";
+	public static String CAROUSEL_VIEW_CLIENT_ID = "vert-pla-mobile-app-offerup-pdp";
 	private ViewGroup adsContainer;
 	SearchAdView searchAdView;
 
