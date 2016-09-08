@@ -21,7 +21,7 @@ public class TestAdActivity extends Activity {
 	public static final String SINGLE_ROW_AD_HEIGHT = "150";
 	public static final String ADS_THEME = "tuna";
 	public static final String COLOR_PALETTE = "6f6f6f";
-	public static String CAROUSEL_VIEW_CLIENT_ID = "vert-pla-mobile-app-offerup-pdp";
+	public static String CAROUSEL_VIEW_CLIENT_ID = "XXX";
 	private ViewGroup adsContainer;
 	SearchAdView searchAdView;
 
